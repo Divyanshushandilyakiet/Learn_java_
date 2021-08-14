@@ -22,8 +22,6 @@ void area() {
 			
        
 		Rectangle r1=new Rectangle();
-		Rectangle r2=new Rectangle();
-		
 		r1.insert(11,5);
 		r1.area();	
 	}
