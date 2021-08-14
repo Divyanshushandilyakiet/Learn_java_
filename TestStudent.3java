@@ -1,0 +1,27 @@
+//Object and class initialization through method
+package corejava;
+
+class Student{
+	int id;
+	String name;
+
+
+void insert(int i, String n) {
+	id=i;
+	name=n;
+}
+void display() {
+	System.out.println("id:"+id+" Name:"+name);
+}
+}
+public class TestStudent3{
+	public static void main(String args[])
+	{
+		Student s1=new Student();
+		Student s2=new Student();
+		s1.insert(101,"Divyanshu");
+		s2.insert(102, "Vishal");
+		s1.display();
+		s2.display();
+	}
+}
