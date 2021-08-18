@@ -1,3 +1,4 @@
+// Encapsulation (connection between Testancapu)
 package corejava;
 
 public class Accounts {
