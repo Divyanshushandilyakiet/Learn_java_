@@ -1,4 +1,4 @@
-// Overloading
+// Overloading Changing number of arguments
 package corejava;
 
 public class Addtwo {
@@ -9,7 +9,7 @@ public class Addtwo {
 	 return a+b+c;
  }
 }
-public class TestOverloading {
+public class TestOverloading1 {
 	public static void main(String[] args) {
 		System.out.println(Addtwo.add(11,11));
 		System.out.println(Addtwo.add(11,11,11));
