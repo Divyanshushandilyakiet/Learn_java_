@@ -1,3 +1,5 @@
+//Encapsulation
+
 package practice;
 
 public class Up extends UK {
