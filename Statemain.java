@@ -1,3 +1,4 @@
+//Encapculation
 package practice;
 
 public class Statemain {
