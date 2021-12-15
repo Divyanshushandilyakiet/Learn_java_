@@ -23,5 +23,12 @@ public static void main(String[] args) {
      char ch1[]={'R','A','M'};
      String ss=new String(ch1);
      System.out.println(ss);
+	
+//     Make the string to tokens....
+     String d="one,two,three,four,five";
+     String[] t=d.split(",");
+     for(String s:t) {
+    	 System.out.println(s);
+     }
 }
 }
