@@ -14,9 +14,14 @@ public static void main(String[] args) {
 	System.out.println(s3.substring(0, 1)+s3.substring(3, 4));
 	
 //	change the string to character 
-        char[] ch=s3.toCharArray();
-        for(char p :ch) {
+    char[] ch=s3.toCharArray();
+    for(char p :ch) {
     	System.out.println(p);
-        }
+    }
+    
+//   Change the char to string
+     char ch1[]={'R','A','M'};
+     String ss=new String(ch1);
+     System.out.println(ss);
 }
 }
